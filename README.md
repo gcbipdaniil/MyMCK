@@ -8,6 +8,18 @@
 
 ---
 
+## 📸 Screenshots
+
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/fd375997-8811-4609-8d67-e0c1ba4da815" width="18%" />
+  <img src="https://github.com/user-attachments/assets/1d89b378-872d-4dd6-9c37-7e7e8aa2608b" width="18%" />
+  <img src="https://github.com/user-attachments/assets/ed3936f5-aa38-4d98-aa4e-6197e9758253" width="18%" />
+  <img src="https://github.com/user-attachments/assets/35f5c6a7-aaa5-4034-96a5-2520390f287e" width="18%" />
+  <img src="https://github.com/user-attachments/assets/08a8ac2e-fa6b-4d9d-8025-13ae300dd0c7" width="18%" />
+</p>
+
+---
+
 ## Polski (PL)
 
 **MójMCK** to nieoficjalna aplikacja pomocnicza dla studentów **Międzynarodowego Centrum Kształcenia (MCK)** na Politechnice Krakowskiej. Została zaprojektowana jako cyfrowy dziennik, który ułatwia codzienne życie studenckie.
