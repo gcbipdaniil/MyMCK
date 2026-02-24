@@ -1,30 +1,65 @@
 {
   "latest": {
-    "version": "2.3",
-    "versionCode": 23,
+    "version": "2.4",
+    "versionCode": 24,
     "releaseDate": "2026-02-24",
-    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/M%C3%B3jMCK-2.3/MojMCK.apk",
+    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/M%C3%B3jMCK-2.4/MojMCK.apk",
     "sizeBytes": 18874368,
     "changelog": {
       "pl": [
-        "Drobne poprawki błędów",
-        "Poprawiono stabilność i wydajność aplikacji"
+        "Znacznie ulepszono działanie Centrum aktualizacji",
+        "Wygładzono wyświetlanie prędkości pobierania (wskaźnik nie skacze już z 0 do 2 MB)",
+        "Dodano płynne animacje w oknie pobierania i wyeliminowano problem ze skaczącym interfejsem",
+        "Historia aktualizacji zawsze pokazuje teraz zmiany dla aktualnie zainstalowanej wersji",
+        "Zoptymalizowano system sprawdzania wersji i dodano naturalne animacje wyszukiwania"
       ],
       "en": [
-        "Minor bug fixes",
-        "Improved app stability and performance"
+        "Significantly improved the Update Center experience",
+        "Smoothed out the download speed display (the indicator no longer jumps from 0 to 2 MB)",
+        "Added smooth animations to the download dialog and fixed layout shifting issues",
+        "The update history now always shows the changelog for your currently installed version",
+        "Optimized the version checking system and added natural checking animations"
       ],
       "uk": [
-        "Дрібні виправлення помилок",
-        "Покращено стабільність та продуктивність додатку"
+        "Значно покращено роботу Центру оновлень",
+        "Згладжено відображення швидкості завантаження (індикатор більше не стрибає з 0 до 2 МБ)",
+        "Додано плавні анімації у діалозі завантаження та усунуто проблему зі смиканням інтерфейсу",
+        "Історія оновлень тепер завжди показує список змін для поточної встановленої версії",
+        "Оптимізовано систему перевірки версій та додано природні анімації пошуку"
       ],
       "be": [
-        "Дробныя выпраўленні памылак",
-        "Палепшана стабільнасць і прадукцыйнасць дадатку"
+        "Значна палепшана праца Цэнтра абнаўленняў",
+        "Згладжана адлюстраванне хуткасці загрузкі (індыкатар больш не скача з 0 да 2 МБ)",
+        "Дададзены плыўныя анімацыі ў дыялогу загрузкі і ліквідавана праблема з тузаннем інтэрфейсу",
+        "Гісторыя абнаўленняў цяпер заўсёды паказвае спіс змен для бягучай усталяванай версіі",
+        "Аптымізавана сістэма праверкі версій і дададзены натуральныя анімацыі пошуку"
       ]
     }
   },
   "history": [
+    {
+      "version": "2.3",
+      "versionCode": 23,
+      "releaseDate": "2026-02-24",
+      "changelog": {
+        "pl": [
+          "Drobne poprawki błędów",
+          "Poprawiono stabilność i wydajność aplikacji"
+        ],
+        "en": [
+          "Minor bug fixes",
+          "Improved app stability and performance"
+        ],
+        "uk": [
+          "Дрібні виправлення помилок",
+          "Покращено стабільність та продуктивність додатку"
+        ],
+        "be": [
+          "Дробныя выпраўленні памылак",
+          "Палепшана стабільнасць і прадукцыйнасць дадатку"
+        ]
+      }
+    },
     {
       "version": "2.2",
       "versionCode": 22,
