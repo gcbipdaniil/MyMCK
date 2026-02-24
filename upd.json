@@ -1,42 +1,84 @@
 {
   "latest": {
-    "version": "2.4",
-    "versionCode": 24,
+    "version": "2.5",
+    "versionCode": 25,
     "releaseDate": "2026-02-24",
-    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/MojMCK-2.4/MojMCK.apk",
-    "sizeBytes": 18874368,
+    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/MojMCK-2.5/MojMCK.apk",
     "changelog": {
       "pl": [
-        "Znacznie ulepszono działanie Centrum aktualizacji",
-        "Wygładzono wyświetlanie prędkości pobierania (wskaźnik nie skacze już z 0 do 2 MB)",
-        "Dodano płynne animacje w oknie pobierania i wyeliminowano problem ze skaczącym interfejsem",
-        "Historia aktualizacji zawsze pokazuje teraz zmiany dla aktualnie zainstalowanej wersji",
-        "Zoptymalizowano system sprawdzania wersji i dodano naturalne animacje wyszukiwania"
+        "Naprawiono błąd, przez który centrum aktualizacji zawsze pokazywało dostępną aktualizację, mimo że aplikacja była aktualna",
+        "Usunięto pole rozmiaru pliku z JSON — rozmiar pobierany jest teraz automatycznie z serwera podczas pobierania",
+        "Przeprojektowano okno pobierania: okrągły wskaźnik postępu, duży procent na środku i elegancki pasek postępu",
+        "Prędkość pobierania wygładzona algorytmem EMA — koniec ze skokami między 0 a 2 MB/s",
+        "Dodano czerwoną kropkę-odznakę na ikonie Ustawień w dolnym pasku nawigacji gdy dostępna jest aktualizacja",
+        "Przycisk Centrum aktualizacji w Ustawieniach teraz podświetla się i pokazuje komunikat gdy dostępna jest nowa wersja",
+        "Aplikacja automatycznie sprawdza aktualizacje w tle przy każdym uruchomieniu"
       ],
       "en": [
-        "Significantly improved the Update Center experience",
-        "Smoothed out the download speed display (the indicator no longer jumps from 0 to 2 MB)",
-        "Added smooth animations to the download dialog and fixed layout shifting issues",
-        "The update history now always shows the changelog for your currently installed version",
-        "Optimized the version checking system and added natural checking animations"
+        "Fixed a bug where the Update Center always showed an update available even when the app was up to date",
+        "Removed the file size field from JSON — size is now fetched automatically from the server during download",
+        "Redesigned the download dialog: circular progress indicator, large percentage in the center, and a clean progress bar",
+        "Download speed smoothed with an EMA algorithm — no more jumps between 0 and 2 MB/s",
+        "Added a red dot badge on the Settings icon in the bottom navigation bar when an update is available",
+        "The Update Center button in Settings now highlights and shows a message when a new version is available",
+        "The app now automatically checks for updates in the background on every launch"
       ],
       "uk": [
-        "Значно покращено роботу Центру оновлень",
-        "Згладжено відображення швидкості завантаження (індикатор більше не стрибає з 0 до 2 МБ)",
-        "Додано плавні анімації у діалозі завантаження та усунуто проблему зі смиканням інтерфейсу",
-        "Історія оновлень тепер завжди показує список змін для поточної встановленої версії",
-        "Оптимізовано систему перевірки версій та додано природні анімації пошуку"
+        "Виправлено помилку, через яку центр оновлень завжди показував наявність оновлення, навіть якщо додаток був актуальним",
+        "Видалено поле розміру файлу з JSON — розмір тепер завантажується автоматично з сервера під час завантаження",
+        "Перероблено діалог завантаження: круговий індикатор прогресу, великий відсоток по центру та чистий прогрес-бар",
+        "Швидкість завантаження згладжена алгоритмом EMA — більше жодних стрибків між 0 та 2 МБ/с",
+        "Додано червону крапку-бейдж на іконці Налаштувань у нижній навігаційній панелі при наявності оновлення",
+        "Кнопка Центру оновлень у Налаштуваннях тепер підсвічується та показує повідомлення про нову версію",
+        "Додаток тепер автоматично перевіряє оновлення у фоновому режимі при кожному запуску"
       ],
       "be": [
-        "Значна палепшана праца Цэнтра абнаўленняў",
-        "Згладжана адлюстраванне хуткасці загрузкі (індыкатар больш не скача з 0 да 2 МБ)",
-        "Дададзены плыўныя анімацыі ў дыялогу загрузкі і ліквідавана праблема з тузаннем інтэрфейсу",
-        "Гісторыя абнаўленняў цяпер заўсёды паказвае спіс змен для бягучай усталяванай версіі",
-        "Аптымізавана сістэма праверкі версій і дададзены натуральныя анімацыі пошуку"
+        "Выпраўлена памылка, з-за якой цэнтр абнаўленняў заўсёды паказваў наяўнасць абнаўлення, нават калі дадатак быў актуальным",
+        "Выдалена поле памеру файла з JSON — памер цяпер спампоўваецца аўтаматычна з сервера падчас загрузкі",
+        "Перапраектаваны дыялог загрузкі: кругавы індыкатар прагрэсу, вялікі адсотак у цэнтры і акуратны прагрэс-бар",
+        "Хуткасць загрузкі згладжана алгарытмам EMA — больш ніякіх скачкоў паміж 0 і 2 МБ/с",
+        "Дададзена чырвоная кропка-бейдж на значку Налад у ніжняй панэлі навігацыі пры наяўнасці абнаўлення",
+        "Кнопка Цэнтра абнаўленняў у Наладах цяпер падсвечваецца і паказвае паведамленне пра новую версію",
+        "Дадатак цяпер аўтаматычна правярае абнаўленні ў фонавым рэжыме пры кожным запуску"
       ]
     }
   },
   "history": [
+    {
+      "version": "2.4",
+      "versionCode": 24,
+      "releaseDate": "2026-02-24",
+      "changelog": {
+        "pl": [
+          "Znacznie ulepszono działanie Centrum aktualizacji",
+          "Wygładzono wyświetlanie prędkości pobierania (wskaźnik nie skacze już z 0 do 2 MB)",
+          "Dodano płynne animacje w oknie pobierania i wyeliminowano problem ze skaczącym interfejsem",
+          "Historia aktualizacji zawsze pokazuje teraz zmiany dla aktualnie zainstalowanej wersji",
+          "Zoptymalizowano system sprawdzania wersji i dodano naturalne animacje wyszukiwania"
+        ],
+        "en": [
+          "Significantly improved the Update Center experience",
+          "Smoothed out the download speed display (the indicator no longer jumps from 0 to 2 MB)",
+          "Added smooth animations to the download dialog and fixed layout shifting issues",
+          "The update history now always shows the changelog for your currently installed version",
+          "Optimized the version checking system and added natural checking animations"
+        ],
+        "uk": [
+          "Значно покращено роботу Центру оновлень",
+          "Згладжено відображення швидкості завантаження (індикатор більше не стрибає з 0 до 2 МБ)",
+          "Додано плавні анімації у діалозі завантаження та усунуто проблему зі смиканням інтерфейсу",
+          "Історія оновлень тепер завжди показує список змін для поточної встановленої версії",
+          "Оптимізовано систему перевірки версій та додано природні анімації пошуку"
+        ],
+        "be": [
+          "Значна палепшана праца Цэнтра абнаўленняў",
+          "Згладжана адлюстраванне хуткасці загрузкі (індыкатар больш не скача з 0 да 2 МБ)",
+          "Дададзены плыўныя анімацыі ў дыялогу загрузкі і ліквідавана праблема з тузаннем інтэрфейсу",
+          "Гісторыя абнаўленняў цяпер заўсёды паказвае спіс змен для бягучай усталяванай версіі",
+          "Аптымізавана сістэма праверкі версій і дададзены натуральныя анімацыі пошуку"
+        ]
+      }
+    },
     {
       "version": "2.3",
       "versionCode": 23,
