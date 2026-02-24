@@ -2,37 +2,60 @@
   "latest": {
     "version": "2.3",
     "versionCode": 23,
-    "releaseDate": "2025-07-01",
-    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/M%C3%B3jMCK-2.2/MojMCK.apk",
-    "sizeBytes": 12582912,
+    "releaseDate": "2026-02-24",
+    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/M%C3%B3jMCK-2.3/MojMCK.apk",
+    "sizeBytes": 18874368,
     "changelog": {
       "pl": [
-        "Dodano centrum aktualizacji z menedżerem pobierania",
-        "Historia aktualizacji z pełnymi informacjami o każdej wersji",
-        "Pobieranie bezpośrednio w aplikacji z widokiem postępu, prędkości i pozostałego czasu",
-        "Wsparcie dla 4 języków w centrum aktualizacji"
+        "Drobne poprawki błędów",
+        "Poprawiono stabilność i wydajność aplikacji"
       ],
       "en": [
-        "Added update center with download manager",
-        "Update history with full information about each version",
-        "Download directly in the app with progress, speed and remaining time view",
-        "Support for 4 languages in the update center"
+        "Minor bug fixes",
+        "Improved app stability and performance"
       ],
       "uk": [
-        "Додано центр оновлень з менеджером завантажень",
-        "Історія оновлень з повною інформацією про кожну версію",
-        "Завантаження прямо в додатку з відображенням прогресу, швидкості та часу, що залишився",
-        "Підтримка 4 мов у центрі оновлень"
+        "Дрібні виправлення помилок",
+        "Покращено стабільність та продуктивність додатку"
       ],
       "be": [
-        "Дададзены цэнтр абнаўленняў з менеджарам загрузак",
-        "Гісторыя абнаўленняў з поўнай інфармацыяй аб кожнай версіі",
-        "Загрузка прама ў праграме з адлюстраваннем прагрэсу, хуткасці і часу, які засталося",
-        "Падтрымка 4 моў у цэнтры абнаўленняў"
+        "Дробныя выпраўленні памылак",
+        "Палепшана стабільнасць і прадукцыйнасць дадатку"
       ]
     }
   },
   "history": [
+    {
+      "version": "2.2",
+      "versionCode": 22,
+      "releaseDate": "2025-06-01",
+      "changelog": {
+        "pl": [
+          "Dodano centrum aktualizacji z menedżerem pobierania",
+          "Historia aktualizacji z pełnymi informacjami o każdej wersji",
+          "Pobieranie bezpośrednio w aplikacji z widokiem postępu, prędkości i pozostałego czasu",
+          "Wsparcie dla 4 języków w centrum aktualizacji"
+        ],
+        "en": [
+          "Added update center with download manager",
+          "Update history with full information about each version",
+          "Download directly in the app with progress, speed and remaining time view",
+          "Support for 4 languages in the update center"
+        ],
+        "uk": [
+          "Додано центр оновлень з менеджером завантажень",
+          "Історія оновлень з повною інформацією про кожну версію",
+          "Завантаження прямо в додатку з відображенням прогресу, швидкості та часу, що залишився",
+          "Підтримка 4 мов у центрі оновлень"
+        ],
+        "be": [
+          "Дададзены цэнтр абнаўленняў з менеджарам загрузак",
+          "Гісторыя абнаўленняў з поўнай інфармацыяй аб кожнай версіі",
+          "Загрузка прама ў праграме з адлюстраваннем прагрэсу, хуткасці і часу, які засталося",
+          "Падтрымка 4 моў у цэнтры абнаўленняў"
+        ]
+      }
+    },
     {
       "version": "2.1",
       "versionCode": 21,
