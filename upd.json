@@ -1,49 +1,84 @@
 {
   "latest": {
-    "version": "2.5",
-    "versionCode": 25,
-    "releaseDate": "2026-02-24",
-    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/M%C3%B3jMCK-2.5/MojMCK.apk",
+    "version": "2.6",
+    "versionCode": 26,
+    "releaseDate": "2026-02-25",
+    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/MojMCK-2.6/MojMCK.apk",
     "changelog": {
       "pl": [
-        "Naprawiono błąd, przez który centrum aktualizacji zawsze pokazywało dostępną aktualizację, mimo że aplikacja była aktualna",
-        "Usunięto pole rozmiaru pliku z JSON — rozmiar pobierany jest teraz automatycznie z serwera podczas pobierania",
-        "Przeprojektowano okno pobierania: okrągły wskaźnik postępu, duży procent na środku i elegancki pasek postępu",
-        "Prędkość pobierania wygładzona algorytmem EMA — koniec ze skokami między 0 a 2 MB/s",
-        "Dodano czerwoną kropkę-odznakę na ikonie Ustawień w dolnym pasku nawigacji gdy dostępna jest aktualizacja",
-        "Przycisk Centrum aktualizacji w Ustawieniach teraz podświetla się i pokazuje komunikat gdy dostępna jest nowa wersja",
-        "Aplikacja automatycznie sprawdza aktualizacje w tle przy każdym uruchomieniu"
+        "Naprawiono błąd, przez który klawiatura nie zamykała się przy wyborze terminu w notatce",
+        "Naprawiono powolne ukrywanie klawiatury na stronie notatek",
+        "Naprawiono otwieranie notatki po dotknięciu powiadomienia push — aplikacja teraz bezpośrednio otwiera daną notatkę",
+        "Po dotknięciu powiadomienia aplikacja automatycznie przechodzi do zakładki Notatki",
+        "Naprawiono wskaźnik aktualizacji w dolnym pasku nawigacji — czerwona kropka nie wychodziła już poza granice przycisku Ustawień"
       ],
       "en": [
-        "Fixed a bug where the Update Center always showed an update available even when the app was up to date",
-        "Removed the file size field from JSON — size is now fetched automatically from the server during download",
-        "Redesigned the download dialog: circular progress indicator, large percentage in the center, and a clean progress bar",
-        "Download speed smoothed with an EMA algorithm — no more jumps between 0 and 2 MB/s",
-        "Added a red dot badge on the Settings icon in the bottom navigation bar when an update is available",
-        "The Update Center button in Settings now highlights and shows a message when a new version is available",
-        "The app now automatically checks for updates in the background on every launch"
+        "Fixed keyboard not dismissing when tapping the deadline picker in a note",
+        "Fixed slow keyboard hiding animation on the notes page",
+        "Fixed note not opening when tapping a push notification — the app now opens the specific note directly",
+        "Tapping a notification now automatically switches to the Notes tab",
+        "Fixed the update badge in the bottom navigation bar — the red dot no longer overflows outside the Settings button boundary"
       ],
       "uk": [
-        "Виправлено помилку, через яку центр оновлень завжди показував наявність оновлення, навіть якщо додаток був актуальним",
-        "Видалено поле розміру файлу з JSON — розмір тепер завантажується автоматично з сервера під час завантаження",
-        "Перероблено діалог завантаження: круговий індикатор прогресу, великий відсоток по центру та чистий прогрес-бар",
-        "Швидкість завантаження згладжена алгоритмом EMA — більше жодних стрибків між 0 та 2 МБ/с",
-        "Додано червону крапку-бейдж на іконці Налаштувань у нижній навігаційній панелі при наявності оновлення",
-        "Кнопка Центру оновлень у Налаштуваннях тепер підсвічується та показує повідомлення про нову версію",
-        "Додаток тепер автоматично перевіряє оновлення у фоновому режимі при кожному запуску"
+        "Виправлено помилку, через яку клавіатура не закривалась при виборі терміну у нотатці",
+        "Виправлено повільне приховування клавіатури на сторінці нотаток",
+        "Виправлено відкриття нотатки після натискання push-сповіщення — додаток тепер одразу відкриває потрібну нотатку",
+        "Натискання на сповіщення тепер автоматично переходить до вкладки Нотаток",
+        "Виправлено індикатор оновлення в нижній навігаційній панелі — червона крапка більше не виходить за межі кнопки Налаштувань"
       ],
       "be": [
-        "Выпраўлена памылка, з-за якой цэнтр абнаўленняў заўсёды паказваў наяўнасць абнаўлення, нават калі дадатак быў актуальным",
-        "Выдалена поле памеру файла з JSON — памер цяпер спампоўваецца аўтаматычна з сервера падчас загрузкі",
-        "Перапраектаваны дыялог загрузкі: кругавы індыкатар прагрэсу, вялікі адсотак у цэнтры і акуратны прагрэс-бар",
-        "Хуткасць загрузкі згладжана алгарытмам EMA — больш ніякіх скачкоў паміж 0 і 2 МБ/с",
-        "Дададзена чырвоная кропка-бейдж на значку Налад у ніжняй панэлі навігацыі пры наяўнасці абнаўлення",
-        "Кнопка Цэнтра абнаўленняў у Наладах цяпер падсвечваецца і паказвае паведамленне пра новую версію",
-        "Дадатак цяпер аўтаматычна правярае абнаўленні ў фонавым рэжыме пры кожным запуску"
+        "Выпраўлена памылка, з-за якой клавіятура не закрывалася пры выбары тэрміну ў нататцы",
+        "Выпраўлена павольнае хаванне клавіятуры на старонцы нататак",
+        "Выпраўлена адкрыццё нататкі пасля дотыку да push-апавяшчэння — дадатак цяпер адразу адкрывае патрэбную нататку",
+        "Дотык да апавяшчэння цяпер аўтаматычна пераходзіць на ўкладку Нататак",
+        "Выпраўлены індыкатар абнаўлення ў ніжняй панэлі навігацыі — чырвоная кропка больш не выходзіць за межы кнопкі Налад"
       ]
     }
   },
   "history": [
+    {
+      "version": "2.5",
+      "versionCode": 25,
+      "releaseDate": "2026-02-24",
+      "changelog": {
+        "pl": [
+          "Naprawiono błąd, przez który centrum aktualizacji zawsze pokazywało dostępną aktualizację, mimo że aplikacja była aktualna",
+          "Usunięto pole rozmiaru pliku z JSON — rozmiar pobierany jest teraz automatycznie z serwera podczas pobierania",
+          "Przeprojektowano okno pobierania: okrągły wskaźnik postępu, duży procent na środku i elegancki pasek postępu",
+          "Prędkość pobierania wygładzona algorytmem EMA — koniec ze skokami między 0 a 2 MB/s",
+          "Dodano czerwoną kropkę-odznakę na ikonie Ustawień w dolnym pasku nawigacji gdy dostępna jest aktualizacja",
+          "Przycisk Centrum aktualizacji w Ustawieniach teraz podświetla się i pokazuje komunikat gdy dostępna jest nowa wersja",
+          "Aplikacja automatycznie sprawdza aktualizacje w tle przy każdym uruchomieniu"
+        ],
+        "en": [
+          "Fixed a bug where the Update Center always showed an update available even when the app was up to date",
+          "Removed the file size field from JSON — size is now fetched automatically from the server during download",
+          "Redesigned the download dialog: circular progress indicator, large percentage in the center, and a clean progress bar",
+          "Download speed smoothed with an EMA algorithm — no more jumps between 0 and 2 MB/s",
+          "Added a red dot badge on the Settings icon in the bottom navigation bar when an update is available",
+          "The Update Center button in Settings now highlights and shows a message when a new version is available",
+          "The app now automatically checks for updates in the background on every launch"
+        ],
+        "uk": [
+          "Виправлено помилку, через яку центр оновлень завжди показував наявність оновлення, навіть якщо додаток був актуальним",
+          "Видалено поле розміру файлу з JSON — розмір тепер завантажується автоматично з сервера під час завантаження",
+          "Перероблено діалог завантаження: круговий індикатор прогресу, великий відсоток по центру та чистий прогрес-бар",
+          "Швидкість завантаження згладжена алгоритмом EMA — більше жодних стрибків між 0 та 2 МБ/с",
+          "Додано червону крапку-бейдж на іконці Налаштувань у нижній навігаційній панелі при наявності оновлення",
+          "Кнопка Центру оновлень у Налаштуваннях тепер підсвічується та показує повідомлення про нову версію",
+          "Додаток тепер автоматично перевіряє оновлення у фоновому режимі при кожному запуску"
+        ],
+        "be": [
+          "Выпраўлена памылка, з-за якой цэнтр абнаўленняў заўсёды паказваў наяўнасць абнаўлення, нават калі дадатак быў актуальным",
+          "Выдалена поле памеру файла з JSON — памер цяпер спампоўваецца аўтаматычна з сервера падчас загрузкі",
+          "Перапраектаваны дыялог загрузкі: кругавы індыкатар прагрэсу, вялікі адсотак у цэнтры і акуратны прагрэс-бар",
+          "Хуткасць загрузкі згладжана алгарытмам EMA — больш ніякіх скачкоў паміж 0 і 2 МБ/с",
+          "Дададзена чырвоная кропка-бейдж на значку Налад у ніжняй панэлі навігацыі пры наяўнасці абнаўлення",
+          "Кнопка Цэнтра абнаўленняў у Наладах цяпер падсвечваецца і паказвае паведамленне пра новую версію",
+          "Дадатак цяпер аўтаматычна правярае абнаўленні ў фонавым рэжыме пры кожным запуску"
+        ]
+      }
+    },
     {
       "version": "2.4",
       "versionCode": 24,
