@@ -1,1 +1,184 @@
-
+{
+  "latest": {
+    "version": "2.2",
+    "versionCode": 22,
+    "releaseDate": "2025-07-01",
+    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/v2.2/MojMCK-2.2.apk",
+    "sizeBytes": 12582912,
+    "changelog": {
+      "pl": [
+        "Dodano centrum aktualizacji z menedżerem pobierania",
+        "Historia aktualizacji z pełnymi informacjami o każdej wersji",
+        "Pobieranie bezpośrednio w aplikacji z widokiem postępu, prędkości i pozostałego czasu",
+        "Wsparcie dla 4 języków w centrum aktualizacji"
+      ],
+      "en": [
+        "Added update center with download manager",
+        "Update history with full information about each version",
+        "Download directly in the app with progress, speed and remaining time view",
+        "Support for 4 languages in the update center"
+      ],
+      "uk": [
+        "Додано центр оновлень з менеджером завантажень",
+        "Історія оновлень з повною інформацією про кожну версію",
+        "Завантаження прямо в додатку з відображенням прогресу, швидкості та часу, що залишився",
+        "Підтримка 4 мов у центрі оновлень"
+      ],
+      "be": [
+        "Дададзены цэнтр абнаўленняў з менеджарам загрузак",
+        "Гісторыя абнаўленняў з поўнай інфармацыяй аб кожнай версіі",
+        "Загрузка прама ў праграме з адлюстраваннем прагрэсу, хуткасці і часу, які засталося",
+        "Падтрымка 4 моў у цэнтры абнаўленняў"
+      ]
+    }
+  },
+  "history": [
+    {
+      "version": "2.1",
+      "versionCode": 21,
+      "releaseDate": "2025-06-01",
+      "changelog": {
+        "pl": [
+          "Dodano przypomnienia o 12, 6 i 1 godzinę przed terminem notatki (zamiast tylko 12 godzin wcześniej)",
+          "Każde przypomnienie pokazuje ile czasu pozostało: '12 godzin', '6 godzin' lub 'Ostatnia godzina!'",
+          "Naprawiono błąd, przez który dotknięcie powiadomienia o temacie lub ocenie zawsze nawigowało do przedmiotu z semestru zimowego",
+          "Naprawiono tłumaczenie wiadomości — dodano przycisk tłumaczenia na każdej karcie aktualności oparty na Google Translate",
+          "Naprawiono awarię podczas importowania pliku planu zajęć",
+          "Naprawiono problem, gdzie zmiana języka aplikacji po imporcie planu powodowała jego ponowne załadowanie z dysku",
+          "Naprawiono błąd wizualny, gdzie czerwony toast błędu migał po udanym imporcie planu"
+        ],
+        "en": [
+          "Added reminders at 12, 6, and 1 hour before a note deadline — instead of only 12 hours before",
+          "Each reminder now shows how much time is left: '12 hours left', '6 hours left', or 'Last hour!'",
+          "Fixed a bug where tapping a topic or grade notification always navigated to a subject in the winter semester",
+          "Fixed news translation — added a translate button on each news card powered by Google Translate",
+          "Fixed a crash when importing a schedule file",
+          "Fixed an issue where changing the app language after importing a schedule would cause it to reload from disk",
+          "Fixed a visual glitch where a red error toast briefly flashed after a successful schedule import"
+        ],
+        "uk": [
+          "Додано нагадування за 12, 6 та 1 годину до дедлайну нотатки — замість лише за 12 годин",
+          "Кожне нагадування тепер показує скільки часу залишилось: '12 годин', '6 годин' або 'Остання година!'",
+          "Виправлено помилку, коли натискання на сповіщення про тему або оцінку завжди переходило до предмету зимового семестру",
+          "Виправлено переклад новин — додано кнопку перекладу на кожній картці новин за допомогою Google Translate",
+          "Виправлено збій при імпорті файлу розкладу",
+          "Виправлено проблему, коли зміна мови додатку після імпорту розкладу призводила до перезавантаження з диску",
+          "Виправлено візуальний баг, коли червоний тост помилки миготів після успішного імпорту розкладу"
+        ],
+        "be": [
+          "Дададзены напаміны за 12, 6 і 1 гадзіну да тэрміну нататкі — замест толькі за 12 гадзін",
+          "Кожны напамін цяпер паказвае колькі часу засталося: '12 гадзін', '6 гадзін' або 'Апошняя гадзіна!'",
+          "Выпраўлена памылка, калі дотык да апавяшчэння аб тэме або адзнацы заўсёды пераходзіў да прадмету зімовага семестра",
+          "Выпраўлены пераклад навін — дададзена кнопка перакладу на кожнай картцы навін праз Google Translate",
+          "Выпраўлена збой пры імпарце файла раскладу",
+          "Выпраўлена праблема, калі змена мовы дадатку пасля імпарту раскладу прыводзіла да перазагрузкі з дыска",
+          "Выпраўлена візуальная памылка, калі чырвоны тост памылкі міргаў пасля паспяховага імпарту раскладу"
+        ]
+      }
+    },
+    {
+      "version": "2.0",
+      "versionCode": 20,
+      "releaseDate": "2025-04-15",
+      "changelog": {
+        "pl": [
+          "Dodano tłumaczenie wiadomości przez Google Translate — dotknij ikony tłumaczenia na karcie aktualności",
+          "Naprawiono awarię podczas importowania pliku planu zajęć",
+          "Naprawiono problem, gdzie zmiana języka po imporcie planu powodowała odrzucenie zmian",
+          "Naprawiono błąd wizualny, gdzie czerwony toast błędu migał po udanym imporcie planu"
+        ],
+        "en": [
+          "Added news translation via Google Translate — tap the translate icon on any news card",
+          "Fixed a crash when importing a schedule file",
+          "Fixed an issue where changing the app language after importing a schedule would discard changes",
+          "Fixed a visual glitch where a red error toast briefly flashed after a successful schedule import"
+        ],
+        "uk": [
+          "Додано переклад новин через Google Translate — натисніть на іконку перекладу на картці новин",
+          "Виправлено збій при імпорті файлу розкладу",
+          "Виправлено проблему, коли зміна мови додатку після імпорту розкладу скасовувала зміни",
+          "Виправлено візуальний баг, коли червоний тост помилки миготів після успішного імпорту"
+        ],
+        "be": [
+          "Дададзены пераклад навін праз Google Translate — дакраніцеся да значка перакладу на картцы навін",
+          "Выпраўлена збой пры імпарце файла раскладу",
+          "Выпраўлена праблема, калі змена мовы пасля імпарту раскладу адмяняла змены",
+          "Выпраўлена візуальная памылка, калі чырвоны тост памылкі міргаў пасля паспяховага імпарту"
+        ]
+      }
+    },
+    {
+      "version": "1.9",
+      "versionCode": 19,
+      "releaseDate": "2025-03-10",
+      "changelog": {
+        "pl": [
+          "Naprawiono problem importu/eksportu planu zajęć, który występował w określonych warunkach"
+        ],
+        "en": [
+          "Fixed an import/export issue with the schedule that occurred under certain conditions"
+        ],
+        "uk": [
+          "Виправлено проблему імпорту/експорту розкладу, яка виникала за певних умов"
+        ],
+        "be": [
+          "Выпраўлена праблема імпарту/экспарту раскладу, якая ўзнікала пры пэўных умовах"
+        ]
+      }
+    },
+    {
+      "version": "1.8",
+      "versionCode": 18,
+      "releaseDate": "2025-02-20",
+      "changelog": {
+        "pl": [
+          "Naprawiono wybór daty i wprowadzanie czasu w zakładce Notatki",
+          "Ulepszono centrum powiadomień: dodano powiadomienia z Notatek i naprawiono nawigację do konkretnych elementów",
+          "Drobne ulepszenia interfejsu i poprawki wizualne",
+          "Naprawiono problemy z datami w planie zajęć",
+          "Rozwiązano problem językowy z powiadomieniami push"
+        ],
+        "en": [
+          "Fixed the date picker and time input in the Notes tab",
+          "Improved the notification center: added notifications from Notes and fixed navigation to specific items",
+          "Minor UI improvements and visual adjustments",
+          "Fixed date-related issues in the schedule",
+          "Resolved a language issue with push notifications"
+        ],
+        "uk": [
+          "Виправлено вибір дати та введення часу у вкладці Нотатки",
+          "Покращено центр сповіщень: додано сповіщення з Нотаток та виправлено навігацію до конкретних елементів",
+          "Незначні покращення інтерфейсу та візуальні коригування",
+          "Виправлено проблеми з датами у розкладі",
+          "Вирішено мовну проблему з push-сповіщеннями"
+        ],
+        "be": [
+          "Выпраўлены выбар даты і ўвод часу ва ўкладцы Нататкі",
+          "Палепшаны цэнтр апавяшчэнняў: дададзены апавяшчэнні з Нататак і выпраўлена навігацыя да канкрэтных элементаў",
+          "Невялікія паляпшэнні інтэрфейсу і візуальныя карэктоўкі",
+          "Выпраўлены праблемы з датамі ў раскладзе",
+          "Вырашана моўная праблема з push-апавяшчэннямі"
+        ]
+      }
+    },
+    {
+      "version": "1.5",
+      "versionCode": 15,
+      "releaseDate": "2025-01-01",
+      "changelog": {
+        "pl": [
+          "🎉 Pierwsze publiczne wydanie aplikacji MójMCK"
+        ],
+        "en": [
+          "🎉 Initial public release of MójMCK"
+        ],
+        "uk": [
+          "🎉 Перший публічний реліз додатку MójMCK"
+        ],
+        "be": [
+          "🎉 Першы публічны рэліз дадатку MójMCK"
+        ]
+      }
+    }
+  ]
+}
