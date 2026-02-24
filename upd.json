@@ -3,7 +3,7 @@
     "version": "2.5",
     "versionCode": 25,
     "releaseDate": "2026-02-24",
-    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/MojMCK-2.5/MojMCK.apk",
+    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/M%C3%B3jMCK-2.5/MojMCK.apk",
     "changelog": {
       "pl": [
         "Naprawiono błąd, przez który centrum aktualizacji zawsze pokazywało dostępną aktualizację, mimo że aplikacja była aktualna",
