@@ -10,7 +10,6 @@
         "Przycisk aktualizacji pulsuje, gdy dostępna jest nowa wersja",
         "Okno szczegółów oceny teraz nakrywa pasek nawigacji jak inne arkusze",
         "Centrum aktualizacji otwiera się płynnie z animacją fade+slide",
-        "Dodano dekoracyjne zakrzywione tło za paskiem nawigacji (efekt rampy)",
         "Przeprojektowano kartę logowania — mniej pustego miejsca, bardziej kompaktowy układ"
       ],
       "en": [
@@ -18,7 +17,6 @@
         "The update button pulses when a new version is available",
         "Grade detail sheet now covers the navigation bar like other sheets",
         "Update Center opens smoothly with fade+slide animation",
-        "Added decorative curved background behind the navigation bar (ramp effect)",
         "Redesigned login card — less empty space, more compact layout"
       ],
       "uk": [
@@ -26,7 +24,6 @@
         "Кнопка оновлення пульсує, коли доступна нова версія",
         "Шторка деталей оцінки тепер перекриває навігаційну панель як інші шторки",
         "Центр оновлень відкривається плавно з анімацією fade+slide",
-        "Додано декоративний закруглений фон за навігаційною панеллю (ефект рампи)",
         "Переробено картку входу — менше порожнього місця, компактніший вигляд"
       ],
       "be": [
@@ -34,7 +31,6 @@
         "Кнопка абнаўлення пульсуе, калі даступна новая версія",
         "Шторка дэталяў адзнакі цяпер перакрывае панэль навігацыі як іншыя шторкі",
         "Цэнтр абнаўленняў адкрываецца плаўна з анімацыяй fade+slide",
-        "Дададзены дэкаратыўны закруглены фон за панэллю навігацыі (эфект рампы)",
         "Перапрацавана картка ўваходу — менш пустога месца, больш кампактны выгляд"
       ]
     }
