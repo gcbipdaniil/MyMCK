@@ -1,53 +1,92 @@
 {
   "latest": {
-    "version": "2.7",
-    "versionCode": 27,
+    "version": "2.8",
+    "versionCode": 28,
     "releaseDate": "2026-02-25",
-    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/MojMCK-2.7/MojMCK.apk",
+    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/MojMCK-2.8/MojMCK.apk",
     "changelog": {
       "pl": [
-        "Dodano animację usuwania — przy kliknięciu «Usuń wszystkie» powiadomienia płynnie przesuwają się w lewo falą",
-        "Dodano możliwość usunięcia pojedynczego powiadomienia gestem przesunięcia w lewo",
-        "Naprawiono wychodzenie przycisku «Usuń wszystkie» poza ekran na niektórych urządzeniach",
-        "Dodano dwa nowe języki tłumaczenia wiadomości: gruziński i kazachski",
-        "Naprawiono wychodzenie przycisku zapisu notatki poza ekran na niektórych urządzeniach",
-        "Naprawiono wyrównanie nagłówka w selektorze daty i czasu — teraz jest wyśrodkowany",
-        "Naprawiono otwieranie zakładki Przedmioty zamiast Notatek po dotknięciu powiadomienia push",
-        "Naprawiono czarny kolor tekstu przycisku aktualizacji w ciemnym motywie"
+        "Dodano przycisk Centrum aktualizacji na ekranie logowania — możesz teraz sprawdzić i zainstalować aktualizacje bez konieczności logowania się do aplikacji",
+        "Przycisk aktualizacji pulsuje, gdy dostępna jest nowa wersja",
+        "Okno szczegółów oceny teraz nakrywa pasek nawigacji jak inne arkusze",
+        "Centrum aktualizacji otwiera się płynnie z animacją fade+slide",
+        "Dodano dekoracyjne zakrzywione tło za paskiem nawigacji (efekt rampy)",
+        "Przeprojektowano kartę logowania — mniej pustego miejsca, bardziej kompaktowy układ"
       ],
       "en": [
-        "Added delete animation — tapping «Clear all» sweeps notifications off the screen to the left in a wave",
-        "Added swipe-to-dismiss for individual notifications (swipe left to delete)",
-        "Fixed «Clear all» button going off-screen on some devices",
-        "Added two new news translation languages: Georgian and Kazakh",
-        "Fixed the save button going off-screen in the note editor on some devices",
-        "Fixed date/time picker header alignment — now properly centered",
-        "Fixed push notification opening the Subjects tab instead of Notes",
-        "Fixed black button text color on the update screen in dark theme"
+        "Added Update Center button on the login screen — you can now check and install updates without logging into the app",
+        "The update button pulses when a new version is available",
+        "Grade detail sheet now covers the navigation bar like other sheets",
+        "Update Center opens smoothly with fade+slide animation",
+        "Added decorative curved background behind the navigation bar (ramp effect)",
+        "Redesigned login card — less empty space, more compact layout"
       ],
       "uk": [
-        "Додано анімацію видалення — при натисканні «Видалити все» сповіщення плавно їдуть вліво хвилею",
-        "Додано можливість видалити окреме сповіщення свайпом вліво",
-        "Виправлено вихід кнопки «Видалити все» за межі екрана на деяких пристроях",
-        "Додано два нових мови перекладу новин: грузинська та казахська",
-        "Виправлено вихід кнопки збереження нотатки за межі екрана на деяких пристроях",
-        "Виправлено вирівнювання заголовка в пікері дати й часу — тепер він по центру",
-        "Виправлено відкриття вкладки Предмети замість Нотаток після натискання push-сповіщення",
-        "Виправлено чорний колір тексту кнопки оновлення у темній темі"
+        "Додано кнопку Центру оновлень на екрані входу — тепер можна перевірити та встановити оновлення без входу в застосунок",
+        "Кнопка оновлення пульсує, коли доступна нова версія",
+        "Шторка деталей оцінки тепер перекриває навігаційну панель як інші шторки",
+        "Центр оновлень відкривається плавно з анімацією fade+slide",
+        "Додано декоративний закруглений фон за навігаційною панеллю (ефект рампи)",
+        "Переробено картку входу — менше порожнього місця, компактніший вигляд"
       ],
       "be": [
-        "Дадана анімацыя выдалення — пры націску «Выдаліць усё» апавяшчэнні плыўна з'язджаюць улева хваляй",
-        "Дадана магчымасць выдаліць асобнае апавяшчэнне свайпам улева",
-        "Выпраўлены выхад кнопкі «Выдаліць усё» за межы экрана на некаторых прыладах",
-        "Дададзены два новых мовы перакладу навін: грузінская і казахская",
-        "Выпраўлены выхад кнопкі захавання нататкі за межы экрана на некаторых прыладах",
-        "Выпраўлена выраўноўванне загалоўка ў пікеры даты і часу — цяпер ён па цэнтры",
-        "Выпраўлена адкрыццё ўкладкі Прадметы замест Нататак пасля дотыку push-апавяшчэння",
-        "Выпраўлены чорны колер тэксту кнопкі абнаўлення ў цёмнай тэме"
+        "Дадана кнопка Цэнтра абнаўленняў на экране ўваходу — цяпер можна праверыць і ўсталяваць абнаўленні без уваходу ў прыкладанне",
+        "Кнопка абнаўлення пульсуе, калі даступна новая версія",
+        "Шторка дэталяў адзнакі цяпер перакрывае панэль навігацыі як іншыя шторкі",
+        "Цэнтр абнаўленняў адкрываецца плаўна з анімацыяй fade+slide",
+        "Дададзены дэкаратыўны закруглены фон за панэллю навігацыі (эфект рампы)",
+        "Перапрацавана картка ўваходу — менш пустога месца, больш кампактны выгляд"
       ]
     }
   },
   "history": [
+    {
+      "version": "2.7",
+      "versionCode": 27,
+      "releaseDate": "2026-02-25",
+      "changelog": {
+        "pl": [
+          "Dodano animację usuwania — przy kliknięciu «Usuń wszystkie» powiadomienia płynnie przesuwają się w lewo falą",
+          "Dodano możliwość usunięcia pojedynczego powiadomienia gestem przesunięcia w lewo",
+          "Naprawiono wychodzenie przycisku «Usuń wszystkie» poza ekran na niektórych urządzeniach",
+          "Dodano dwa nowe języki tłumaczenia wiadomości: gruziński i kazachski",
+          "Naprawiono wychodzenie przycisku zapisu notatki poza ekran na niektórych urządzeniach",
+          "Naprawiono wyrównanie nagłówka w selektorze daty i czasu — teraz jest wyśrodkowany",
+          "Naprawiono otwieranie zakładki Przedmioty zamiast Notatek po dotknięciu powiadomienia push",
+          "Naprawiono czarny kolor tekstu przycisku aktualizacji w ciemnym motywie"
+        ],
+        "en": [
+          "Added delete animation — tapping «Clear all» sweeps notifications off the screen to the left in a wave",
+          "Added swipe-to-dismiss for individual notifications (swipe left to delete)",
+          "Fixed «Clear all» button going off-screen on some devices",
+          "Added two new news translation languages: Georgian and Kazakh",
+          "Fixed the save button going off-screen in the note editor on some devices",
+          "Fixed date/time picker header alignment — now properly centered",
+          "Fixed push notification opening the Subjects tab instead of Notes",
+          "Fixed black button text color on the update screen in dark theme"
+        ],
+        "uk": [
+          "Додано анімацію видалення — при натисканні «Видалити все» сповіщення плавно їдуть вліво хвилею",
+          "Додано можливість видалити окреме сповіщення свайпом вліво",
+          "Виправлено вихід кнопки «Видалити все» за межі екрана на деяких пристроях",
+          "Додано два нових мови перекладу новин: грузинська та казахська",
+          "Виправлено вихід кнопки збереження нотатки за межі екрана на деяких пристроях",
+          "Виправлено вирівнювання заголовка в пікері дати й часу — тепер він по центру",
+          "Виправлено відкриття вкладки Предмети замість Нотаток після натискання push-сповіщення",
+          "Виправлено чорний колір тексту кнопки оновлення у темній темі"
+        ],
+        "be": [
+          "Дадана анімацыя выдалення — пры націску «Выдаліць усё» апавяшчэнні плыўна з'язджаюць улева хваляй",
+          "Дадана магчымасць выдаліць асобнае апавяшчэнне свайпам улева",
+          "Выпраўлены выхад кнопкі «Выдаліць усё» за межы экрана на некаторых прыладах",
+          "Дададзены два новых мовы перакладу навін: грузінская і казахская",
+          "Выпраўлены выхад кнопкі захавання нататкі за межы экрана на некаторых прыладах",
+          "Выпраўлена выраўноўванне загалоўка ў пікеры даты і часу — цяпер ён па цэнтры",
+          "Выпраўлена адкрыццё ўкладкі Прадметы замест Нататак пасля дотыку push-апавяшчэння",
+          "Выпраўлены чорны колер тэксту кнопкі абнаўлення ў цёмнай тэме"
+        ]
+      }
+    },
     {
       "version": "2.6",
       "versionCode": 26,
