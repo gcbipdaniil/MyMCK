@@ -1,33 +1,77 @@
 {
   "latest": {
-    "version": "2.9",
-    "versionCode": 29,
-    "releaseDate": "2026-03-12",
-    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/MojMCK-2.9/MojMCK.apk",
+    "version": "3.0",
+    "versionCode": 30,
+    "releaseDate": "2026-03-13",
+    "downloadUrl": "https://github.com/gcbipdaniil/MyMCK/releases/download/MojMCK-3.0/MojMCK.apk",
     "changelog": {
       "pl": [
-        "Dodano wybór strefy czasowej w ustawieniach — plan zajęć wyświetla teraz godziny w wybranej strefie czasowej",
-        "Przeprojektowano ekran logowania — nowy układ w stylu bottom-sheet",
-        "Naprawiono błąd, przez który godziny zajęć zależały od systemowej strefy czasowej urządzenia"
+        "Naprawiono błąd importu planu — zmienione godziny zajęć teraz poprawnie wczytują się po imporcie pliku",
+        "Dodano powiadomienia push o nadchodzących zajęciach — aplikacja przypomina 15 minut przed rozpoczęciem pary",
+        "Powiadomienia o zajęciach uwzględniają wybraną strefę czasową aplikacji, a nie systemową",
+        "Powiadomienia o zajęciach wyświetlają się w języku ustawionym w aplikacji",
+        "Teraz można używać tylko jednego konta w aplikacji",
+        "Dodano powiadomienia o nowych ocenach, wiadomościach, frekwencji i tematach",
+        "Przebudowano stronę logowania"
       ],
       "en": [
-        "Added timezone picker in settings — the schedule now displays times in your chosen timezone",
-        "Redesigned login screen — new bottom-sheet style layout",
-        "Fixed a bug where class times were affected by the device system timezone"
+        "Fixed schedule import bug — updated class times now load correctly after importing a file",
+        "Added push notifications for upcoming classes — the app reminds you 15 minutes before a class starts",
+        "Class notifications respect the timezone set in the app, not the system timezone",
+        "Class notifications are displayed in the language set in the app",
+        "Now only one account can be used in the app",
+        "Added notifications about new grades, messages, attendance and topics",
+        "Authorization page redesigned"
       ],
       "uk": [
-        "Додано вибір часового поясу в налаштуваннях — розклад тепер відображає час у вибраному поясі",
-        "Переробено екран входу — новий макет у стилі bottom-sheet",
-        "Виправлено помилку, через яку години занять залежали від системного часового поясу пристрою"
+        "Виправлено помилку імпорту розкладу — змінені години занять тепер коректно завантажуються після імпорту файлу",
+        "Додано push-сповіщення про наступні заняття — додаток нагадує за 15 хвилин до початку пари",
+        "Сповіщення про заняття враховують часовий пояс додатку, а не системний",
+        "Сповіщення про заняття відображаються мовою, встановленою в додатку",
+        "Тепер можна використовувати лише один акаунт у додатку",
+        "Додано сповіщення про нові оцінки, повідомлення, відвідуваність і теми",
+        "Перероблено сторінку авторизації"
       ],
       "be": [
-        "Дададзены выбар гадзіннага пояса ў наладах — расклад цяпер паказвае час у абраным поясе",
-        "Перапрацаваны экран уваходу — новы макет у стылі bottom-sheet",
-        "Выпраўлена памылка, з-за якой гадзіны заняткаў залежалі ад сістэмнага гадзіннага пояса прылады"
+        "Выпраўлена памылка імпарту раскладу — зменены гадзіны заняткаў цяпер правільна загружаюцца пасля імпарту файла",
+        "Дададзены push-апавяшчэнні аб надыходзячых занятках — дадатак нагадвае за 15 хвілін да пачатку пары",
+        "Апавяшчэнні аб занятках улічваюць гадзінны пояс дадатку, а не сістэмны",
+        "Апавяшчэнні аб занятках адлюстроўваюцца на мове, усталяванай у дадатку",
+        "Цяпер можна выкарыстоўваць толькі адзін уліковы запіс у дадатку",
+        "Дададзены апавяшчэнні аб новых адзнаках, паведамленнях, наведвальнасці і тэмах",
+        "Перапрацавана старонка аўтарызацыі"
       ]
     }
-  },
+  }
+},
   "history": [
+    {
+      "version": "2.9",
+      "versionCode": 29,
+      "releaseDate": "2026-03-12",
+      "changelog": {
+        "pl": [
+          "Dodano wybór strefy czasowej w ustawieniach — plan zajęć wyświetla teraz godziny w wybranej strefie czasowej",
+          "Przeprojektowano ekran logowania — nowy układ w stylu bottom-sheet",
+          "Naprawiono błąd, przez który godziny zajęć zależały od systemowej strefy czasowej urządzenia"
+        ],
+        "en": [
+          "Added timezone picker in settings — the schedule now displays times in your chosen timezone",
+          "Redesigned login screen — new bottom-sheet style layout",
+          "Fixed a bug where class times were affected by the device system timezone"
+        ],
+        "uk": [
+          "Додано вибір часового поясу в налаштуваннях — розклад тепер відображає час у вибраному поясі",
+          "Переробено екран входу — новий макет у стилі bottom-sheet",
+          "Виправлено помилку, через яку години занять залежали від системного часового поясу пристрою"
+        ],
+        "be": [
+          "Дададзены выбар гадзіннага пояса ў наладах — расклад цяпер паказвае час у абраным поясе",
+          "Перапрацаваны экран уваходу — новы макет у стылі bottom-sheet",
+          "Выпраўлена памылка, з-за якой гадзіны заняткаў залежалі ад сістэмнага гадзіннага пояса прылады"
+        ]
+      }
+    },
     {
       "version": "2.8",
       "versionCode": 28,
@@ -228,22 +272,10 @@
       "versionCode": 23,
       "releaseDate": "2026-02-24",
       "changelog": {
-        "pl": [
-          "Drobne poprawki błędów",
-          "Poprawiono stabilność i wydajność aplikacji"
-        ],
-        "en": [
-          "Minor bug fixes",
-          "Improved app stability and performance"
-        ],
-        "uk": [
-          "Дрібні виправлення помилок",
-          "Покращено стабільність та продуктивність додатку"
-        ],
-        "be": [
-          "Дробныя выпраўленні памылак",
-          "Палепшана стабільнасць і прадукцыйнасць дадатку"
-        ]
+        "pl": [ "Drobne poprawki błędów", "Poprawiono stabilność i wydajność aplikacji" ],
+        "en": [ "Minor bug fixes", "Improved app stability and performance" ],
+        "uk": [ "Дрібні виправлення помилок", "Покращено стабільність та продуктивність додатку" ],
+        "be": [ "Дробныя выпраўленні памылак", "Палепшана стабільнасць і прадукцыйнасць дадатку" ]
       }
     },
     {
@@ -356,18 +388,10 @@
       "versionCode": 19,
       "releaseDate": "2025-03-10",
       "changelog": {
-        "pl": [
-          "Naprawiono problem importu/eksportu planu zajęć, który występował w określonych warunkach"
-        ],
-        "en": [
-          "Fixed an import/export issue with the schedule that occurred under certain conditions"
-        ],
-        "uk": [
-          "Виправлено проблему імпорту/експорту розкладу, яка виникала за певних умов"
-        ],
-        "be": [
-          "Выпраўлена праблема імпарту/экспарту раскладу, якая ўзнікала пры пэўных умовах"
-        ]
+        "pl": [ "Naprawiono problem importu/eksportu planu zajęć, który występował w określonych warunkach" ],
+        "en": [ "Fixed an import/export issue with the schedule that occurred under certain conditions" ],
+        "uk": [ "Виправлено проблему імпорту/експорту розкладу, яка виникала за певних умов" ],
+        "be": [ "Выпраўлена праблема імпарту/экспарту раскладу, якая ўзнікала пры пэўных умовах" ]
       }
     },
     {
@@ -410,18 +434,10 @@
       "versionCode": 15,
       "releaseDate": "2025-01-01",
       "changelog": {
-        "pl": [
-          "Pierwsze publiczne wydanie aplikacji MójMCK"
-        ],
-        "en": [
-          "Initial public release of MójMCK"
-        ],
-        "uk": [
-          "Перший публічний реліз додатку MójMCK"
-        ],
-        "be": [
-          "Першы публічны рэліз дадатку MójMCK"
-        ]
+        "pl": [ "Pierwsze publiczne wydanie aplikacji MójMCK" ],
+        "en": [ "Initial public release of MójMCK" ],
+        "uk": [ "Перший публічний реліз додатку MójMCK" ],
+        "be": [ "Першы публічны рэліз дадатку MójMCK" ]
       }
     }
   ]
